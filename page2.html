@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conta{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            height: 300px;
+            gap: 10px;
+           
+        }
+        .item{
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+        }
+        .item1{
+            grid-column: 1/4;
+        }
+        .item5{
+            grid-column: 1/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="conta">
+        <div class="item item1">Header</div>
+        <div class="item">Left body</div>
+        <div class="item">body</div>
+        <div class="item">Right Body</div>
+        <div class="item item5">footer</div>
+
+    </div>
+</body>
+</html>

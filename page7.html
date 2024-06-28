@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 50px 50px 50px;
+            background-color: black;
+            padding: 10px;
+            height: 80vh;
+        }
+        .item{
+            background-color: rgb(190, 74, 74);
+            display: flex;
+            justify-content: center;
+            color: azure;
+        }
+        .item1{
+            grid-column: 2/3;
+            background-color: aqua;
+            color: black;
+            background-image: url("https://www.w3schools.com/w3images/rocks.jpg");
+            background-size: cover;
+        }
+        .item2{
+            grid-row: 1/3;
+            background-color: blueviolet;
+            color: rgb(25, 22, 22);
+            background-image: url("https://www.w3schools.com/w3images/nature.jpg");
+            background-size: cover;
+        }
+        .item7{
+            grid-column: 3/4;
+            grid-row: 1/3;
+            background-color: cadetblue;
+            color: black;
+            background-image: url("https://www.w3schools.com/w3images/avatar_g.jpg");
+            background-size: cover;
+        }
+        .item4{
+            grid-column: 2/3;
+            grid-row: 2/4;
+            background-color: chartreuse;
+            color: black;
+            background-image: url("https://www.w3schools.com/w3images/lights.jpg");
+            background-size: cover;
+        }
+        .item6{
+            grid-row: 6/8;
+            grid-column: 2/3;
+            background-color: blueviolet;
+            background-image: url("https://www.w3schools.com/w3images/workshop.jpg");
+            background-size: cover;
+        }
+        .item3{
+            grid-row: 3/8;
+            color: rgb(13, 13, 13);
+            background-image: url("https://www.w3schools.com/w3images/coffee.jpg");
+            background-size: cover;
+        }
+        .item5{
+            grid-row:4/6; 
+            background-image: url("https://www.w3schools.com/w3images/workbench.jpg");
+            background-size: cover;
+        }
+        .item8{
+            grid-column: 3/4;
+            grid-row: 3/8;
+            color: black;
+            background-image: url("https://www.w3schools.com/w3images/notebook.jpg");
+            background-size: cover;
+        }
+        .item9{
+            grid-row: 8/12;
+            grid-column: 1/4;
+            background-color: hotpink;
+            color: black;
+            background-image: url("https://www.w3schools.com/w3images/london.jpg");
+            background-size: cover;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">hello</div>
+        <div class="item item2">leftsidebar1</div>
+        <div class="item item3">leftsidebar2</div>
+        <div class="item item4">body</div>
+        <div class="item item5">content1</div>
+        <div class="item item6">content2</div>
+        <div class="item item7">rightsidebar1</div>
+        <div class="item item8">rightsidebar2</div>
+        <div class="item item9">footer</div>
+    </div>
+</body>
+</html>
